@@ -5,8 +5,8 @@ const form = document.querySelector('#add-cafe-form');
 function renderCafe(doc){
     let li = document.createElement('li');
     let name = document.createElement('button');
-    let city = document.createElement('span');
-    let cross = document.createElement('button');
+    let city = document.createElement('li');
+    let cross = document.createElement('span');
 
     li.setAttribute('data-id', doc.id);
     name.textContent = doc.data().name;
